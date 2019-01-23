@@ -21,6 +21,7 @@ while (1) {
         else {
             alert('cannot  afford');
         }
+        break;
 
 
 
