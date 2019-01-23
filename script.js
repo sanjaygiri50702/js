@@ -6,11 +6,24 @@
 // else{
 //     alert('you are fail');
 // }
-var bankAmount = prompt('enter your bank amount');
-var mblPrice = prompt('enter mobile price');
-if(mblPrice > bankAmount){
-    alert('cannot afford');
-}
-else{
-    alert('can afford');
+
+while (1) {
+    var bankAmount = prompt('enter your bank amount');
+    if (isNaN(Number(bankAmount))) {
+        continue;
+    }
+    else {
+        var mblPrice = prompt('enter mobile price');
+        alert(bankAmount);
+        if (Number(bankAmount) > Number(mblPrice)) {
+            alert('can afford');
+        }
+        else {
+            alert('cannot  afford');
+        }
+
+
+
+    }
+
 }
