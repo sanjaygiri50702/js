@@ -14,6 +14,10 @@ function subtraction(a,b){
         return b-a;
     }
 }
-alert('addition=' + add(firstNumber,secondNumber));
-alert('multiply=' + multiply(firstNumber,secondNumber));
-alert('subtraction=' + subtraction(firstNumber,secondNumber));
+// alert('addition=' + add(firstNumber,secondNumber));
+
+// alert('multiply=' + multiply(firstNumber,secondNumber));
+// alert('subtraction=' + subtraction(firstNumber,secondNumber));
+alert(`sum is ${add(firstNumber,secondNumber)} 
+and multiplication is ${multiply(firstNumber,secondNumber)} 
+and subtraction is ${subtraction(firstNumber,secondNumber)}`);
