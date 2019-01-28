@@ -51,4 +51,30 @@ function name(){
     var getPosition = prompt('enter position ');
     alert(`name = ${returnPosition(getPosition,name)}`);
 }
-name();
+
+function another(){
+
+    var name = ['sanjay','anup','milan','rajan'];
+    var getPosition = prompt('enter position ');
+    // alert();
+    var value = document.getElementById('replace');
+    var positionName = returnPosition(getPosition,name);
+    console.log(value);
+    value.innerHTML = `<h1>name = ${positionName}</h1>`;
+}
+ 
+// var name = ['sanjay','anup','milan','rajan'];
+// var sum = (x)=>{
+//     var value =[];
+//     var total;
+//     for(var i=0;i<x;i++){
+//         value.push(parseInt(prompt('enter value=')));
+//         value
+
+//     }
+// }
+
+function changeColor(){
+    var value = document.getElementById('click1');
+    value.style = "background-color : red;";
+}
